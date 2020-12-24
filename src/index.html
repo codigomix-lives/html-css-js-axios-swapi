@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CodePen - Live #1 - Vanilla JS + CSS + HTML + axios + Star Wars API - SWAPI -
+        https://www.twitch.tv/codigomix</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="title box">Personagem</div>
+<div>
+    <div class="box"><input id="id" class="idBusca" type="number">
+        <button onClick="buscar()">Buscar</button>
+    </div>
+</div>
+<div id="people" class="box" style="display: none">
+    <div class="row">
+        <div class="label">Nome:</div>
+        <div id="name" class="value"></div>
+    </div>
+    <div class="row">
+        <div class="label">Altura:</div>
+        <div id="height" class="value"></div>
+    </div>
+    <div class="row">
+        <div class="label">Cabelo:</div>
+        <div id="hair" class="value"></div>
+    </div>
+
+</div>
+
+
+<div id="content" class="resultado">
+
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js'></script>
+<script src="./script.js"></script>
+
+</body>
+</html>

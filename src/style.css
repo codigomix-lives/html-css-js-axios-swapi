@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+}
+
+.label {
+    color: green;
+    display: inline;
+}
+
+.value {
+    color: blue;
+    display: inline;
+}
+
+.title {
+    color: red;
+    font-weight: bold;
+    display: block;
+}
+
+.idBusca {
+    width: 50px;
+}
+
+.box {
+    box-shadow: 4px 3px 11px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 3px 11px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 3px 11px -5px rgba(0, 0, 0, 0.75);
+    display: inline-block;
+    padding: 16px;
+    margin-bottom: 5px;
+    min-width: 200px
+}
